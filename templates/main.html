@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Study!</title>
+    <meta name = 'viewport' content='width=device-width, initial-scale=1'>
+    {% comment %} <link rel='stylesheet' type='text/css' media="screen" href='main.css'>
+    <script src="main.js"></script> {% endcomment %}
+  </head>
+  <body>
+    {% include 'navbar.html' %}
+    {% comment %} <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p> {% endcomment %}
+    {% block content %}
+
+    {% endblock %}
+  </body>
+</html>
